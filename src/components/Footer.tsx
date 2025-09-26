@@ -117,9 +117,9 @@ const Footer: React.FC = () => {
           </div>
         </nav>
       </div>
-      <div className="absolute z-0 flex w-[1440px] items-center text-sm text-white font-medium text-center leading-[1.4] justify-between p-5 border-[rgba(25,25,25,1)] border-t right-0 bottom-0 max-md:max-w-full">
-        <div className="text-white self-stretch flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
-          Copywrite © 2025 VonTech Group. All Right Reserved.
+      <div className="absolute z-0 flex w-full items-center text-sm text-white font-medium text-center leading-[1.4] justify-center p-5 border-[rgba(25,25,25,1)] border-t left-0 bottom-0 max-md:max-w-full">
+        <div className="text-white text-center max-md:max-w-full">
+          Copyright © 2025 VonTech Group. All Rights Reserved.
         </div>
       </div>
     </footer>
