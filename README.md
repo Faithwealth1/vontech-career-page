@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# VonTech Group - Career Portal
 
-## Project info
+A modern career portal built with React, TypeScript, and Tailwind CSS showcasing job opportunities at VonTech Group.
 
-**URL**: https://lovable.dev/projects/5a155031-ff02-4c34-9c66-e55fd990e08e
+## 🚀 Features
 
-## How can I edit this code?
+- **Responsive Design** - Optimized for all device sizes
+- **Modern UI** - Clean, professional interface with smooth animations
+- **Job Listings** - Display current openings with detailed descriptions
+- **Company Culture** - Highlight work environment and benefits
+- **Contact Integration** - Easy application and inquiry process
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **React 18** - Modern React with hooks
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Fast build tool and dev server
+- **Radix UI** - Accessible component primitives
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5a155031-ff02-4c34-9c66-e55fd990e08e) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd vontech-careers
+```
 
-**Use your preferred IDE**
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open [http://localhost:8080](http://localhost:8080) in your browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Build
 
-**Use GitHub Codespaces**
+To build the project for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+To preview the production build:
 
-This project is built with:
+```bash
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📁 Project Structure
 
-## How can I deploy this project?
+```
+src/
+├── components/           # Reusable UI components
+│   ├── ui/              # Base UI components
+│   ├── Header.tsx       # Site navigation
+│   ├── HeroSection.tsx  # Main hero section
+│   ├── WhyWorkWithUs.tsx# Company benefits
+│   ├── CurrentOpenings.tsx # Job listings
+│   ├── LifeAtVontech.tsx # Company culture
+│   ├── CallToAction.tsx # Contact CTA
+│   └── Footer.tsx       # Site footer
+├── pages/               # Page components
+├── lib/                 # Utility functions
+└── hooks/               # Custom React hooks
+```
 
-Simply open [Lovable](https://lovable.dev/projects/5a155031-ff02-4c34-9c66-e55fd990e08e) and click on Share -> Publish.
+## 🎨 Customization
 
-## Can I connect a custom domain to my Lovable project?
+The project uses a design system with consistent colors, typography, and spacing defined in:
+- `src/index.css` - Global styles and CSS variables
+- `tailwind.config.ts` - Tailwind configuration
+- `src/components/ui/` - Base component variants
 
-Yes, you can!
+## 📝 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is proprietary and confidential.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🤝 Contributing
+
+This is a private project. For any changes or improvements, please contact the development team.
