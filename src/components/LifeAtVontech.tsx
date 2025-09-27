@@ -50,7 +50,7 @@ const LifeAtVontech: React.FC = () => {
         </div>
         <div className="flex w-full items-center gap-[40px_110px] justify-center flex-wrap mt-[60px] max-md:max-w-full max-md:mt-10">
           <img
-            src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/4cb5175ce21065c464e1f7a1e3b84015113fd161?placeholderIfAbsent=true"
+            src="team vontech.png"
             alt="Team working together"
             className="aspect-[1.05] object-contain w-[526px] self-stretch min-w-60 my-auto rounded-[30px] max-md:max-w-full"
           />

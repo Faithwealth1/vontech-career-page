@@ -9,9 +9,9 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-[rgba(8,8,8,0.9)] absolute z-10 flex w-[1280px] max-w-full items-center gap-[40px_100px] justify-between flex-wrap -translate-x-2/4 translate-y-[0%] px-8 py-4 rounded-[30px] left-2/4 top-[60px] max-md:px-5">
+    <header className="bg-[rgba(8,8,8,0.9)] absolute z-10 flex w-[1280px] max-w-full items-center gap-[40px_100px] justify-between flex-wrap -translate-x-2/4 translate-y-[0%] px-8 py-4 rounded-[30px] left-2/4 top-[40px] max-md:px-5">
       <img
-        src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/a0d7ae3d5919fc0bdac4bea8de350a83e737593e?placeholderIfAbsent=true"
+        src="Vontech-Logo 1.png"
         alt="VonTech Group Logo"
         className="aspect-[4.55] object-contain w-[100px] self-stretch shrink-0 my-auto"
       />
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
           </a>
           <div className="self-stretch flex flex-col overflow-hidden items-center justify-center w-[26px] my-auto pt-1">
             <img
-              src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/48475e67641946927977a9513afd0a67c8d15233?placeholderIfAbsent=true"
+              src="drop down.svg"
               alt="Dropdown arrow"
               className="aspect-[1] object-contain w-6"
             />

@@ -21,20 +21,20 @@ A modern career portal built with React, TypeScript, and Tailwind CSS showcasing
 ## 📦 Installation
 
 1. Clone the repository:
-```bash
+bash
 git clone <your-repo-url>
 cd vontech-careers
-```
+
 
 2. Install dependencies:
-```bash
+bash
 npm install
-```
+
 
 3. Start the development server:
-```bash
+bash
 npm run dev
-```
+
 
 4. Open [http://localhost:8080](http://localhost:8080) in your browser
 
@@ -42,19 +42,19 @@ npm run dev
 
 To build the project for production:
 
-```bash
+bash
 npm run build
-```
+
 
 To preview the production build:
 
-```bash
+bash
 npm run preview
-```
+
 
 ## 📁 Project Structure
 
-```
+
 src/
 ├── components/           # Reusable UI components
 │   ├── ui/              # Base UI components
@@ -68,7 +68,7 @@ src/
 ├── pages/               # Page components
 ├── lib/                 # Utility functions
 └── hooks/               # Custom React hooks
-```
+
 
 ## 🎨 Customization
 

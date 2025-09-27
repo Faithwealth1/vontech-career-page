@@ -26,27 +26,27 @@ const CurrentOpenings: React.FC = () => {
   const jobOpenings = [
     {
       title: "AI Cloud Architect",
-      imageUrl: "https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/73fb81ede442bea008225f256869e58318099e33?placeholderIfAbsent=true"
+      imageUrl: "AI cloud.png"
     },
     {
       title: "Cloud-Native Developer",
-      imageUrl: "https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/e55cf11f8065d4ca652d6079f63f41f640983107?placeholderIfAbsent=true"
+      imageUrl: "cloud native.png"
     },
     {
       title: "DevOps Engineer",
-      imageUrl: "https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/510d63191f379d77a5c1cf96cc31522420246b11?placeholderIfAbsent=true"
+      imageUrl: "dev-ops.png"
     },
     {
       title: "Big Data Engineer",
-      imageUrl: "https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/5e9671109dfd12ac498a34a8b48adbbffffe726b?placeholderIfAbsent=true"
+      imageUrl: "data engineer.png"
     },
     {
       title: "IoT Solutions Developer",
-      imageUrl: "https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/fa0a42e4f6f6a8501fe6b314b57b7be6cd173434?placeholderIfAbsent=true"
+      imageUrl: "iot solutions.png"
     },
     {
       title: "Technical Support Specialist",
-      imageUrl: "https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/21e03e6f7d893bed7ff8506427b1d64ee16fca30?placeholderIfAbsent=true"
+      imageUrl: "support.png"
     }
   ];
 

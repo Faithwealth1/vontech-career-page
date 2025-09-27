@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="flex flex-col relative z-0 min-h-[712px] w-full items-start gap-[40px_75px] overflow-hidden pt-[250px] pb-[120px] px-20 max-md:max-w-full max-md:px-5 max-md:py-[100px] max-md:items-center">
       <img
-        src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/1fb91520d78512cff80a4b56a67b1f12bb24922c?placeholderIfAbsent=true"
+        src="hero career bg.png"
         alt="Hero background"
         className="absolute h-full w-full object-cover inset-0"
       />
@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
         </Button>
       </div>
       <img
-        src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/32fd663b268a8c0cc5a3c758a8947475f62d70ff?placeholderIfAbsent=true"
+        src="team smile.png"
         alt="Team collaboration"
         className="aspect-[0.94] object-contain w-[503px] absolute z-0 min-w-60 h-[606px] right-20 bottom-0 max-md:relative max-md:right-auto max-md:bottom-auto max-md:mx-auto max-md:mt-8 max-md:w-[320px] max-md:h-auto"
       />

@@ -5,7 +5,7 @@ const CallToAction: React.FC = () => {
   return (
     <section className="flex flex-col justify-center items-stretch overflow-hidden relative z-0 min-h-[277px] w-full px-20 py-10 max-md:max-w-full max-md:px-5">
       <img
-        src="https://api.builder.io/api/v1/image/assets/1fe23c12aa114c02a439df9b05291582/3a0ea6489ed89f60e84c38df7a40904afb2970c6?placeholderIfAbsent=true"
+        src="cta bg.png"
         alt="Call to action background"
         className="absolute h-full w-full object-cover inset-0"
       />
